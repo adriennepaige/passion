@@ -1,0 +1,151 @@
+body{
+    background-image: linear-gradient(rgba(255,0,0,0), rgb(218, 164, 255));
+    text-align:center;
+    background-size: 850px 1100px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin-top: 100px;
+    text-align:center; font-size:35px; text-transform:uppercase; color:#000000; letter-spacing:1px;
+    font-family:"Playfair Display", serif; font-weight:700;
+} 
+
+h2{
+    font-family:'raleway';
+    font-size: 16px;
+    font-weight: 300;
+}
+
+p{
+    margin: 50px auto 50px auto;
+    min-width: 200px;
+    max-width: 800px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 30px auto 30px auto;
+    /* border: 1px solid black; */
+}
+
+.box{
+    position:absolute;
+}
+
+.box#image1{
+    width: 50px;
+    height: 50px;
+
+    bottom: 470px;
+    left: 310px;
+    
+    /* lily */
+}
+
+.box#image2{
+    width: 50px;
+    height: 50px;
+
+    bottom: 70px;
+    right: 150px;
+
+    /* hydrangea */
+}
+
+.box#image3{
+    width: 50px;
+    height: 50px;
+
+    top: 190px;
+    left: 200px;
+
+    /* daffodil */
+}
+
+.box#image4{
+    width: 50px;
+    height: 50px;
+
+    bottom: 50px;
+    left: 80px;
+
+    /* chrysanthemum */
+}
+
+.box#image5{
+    width: 50px;
+    height: 50px;
+
+    bottom: 255px;
+    right: 10px;
+    padding-right: 10px;
+
+    /* azalia */
+}
+
+.box#image6{
+    width: 50px;
+    height: 50px;
+
+    top: 190px;
+    right: 510px;
+
+    /* peony */
+}
+
+.box#image7{
+    width: 50px;
+    height: 50px;
+
+    bottom: 490px;
+    left: 60px;
+
+    /* hibiscus */
+}
+
+#nav {
+  margin: 0 auto;
+  max-width: 480px;
+}
+
+#nav ul {
+  padding-left: 0px;
+}
+
+#nav li {
+    list-style-type: none;
+    text-decoration: none;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.button{
+    margin: auto auto 25px auto;
+    width: 100px;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 5px 8px 5px;
+    background-color:rgb(248, 238, 255);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+img{
+    object-fit: cover;
+}
+
+.footer{
+    margin-bottom: 50px;
+    margin-top: auto;
+}
+
+
